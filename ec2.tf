@@ -88,7 +88,7 @@ resource "aws_security_group" "App_SG" {
 #salvarea chei publice dupa generare
 resource "aws_key_pair" "App-Instance-Key" {
   key_name   = "Web-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDjKgB3q/WLQ0xNu6xZ9XAswULdMWEyRC7MZxI84aIcEUY1+0o6XBLpUd6+KQ6GPcSV17iqsix3W1hGcfBtZFdbHttkbXYtoc8yde73KaTRAu562AD9ZN70s/22Ev5otWCMV+kLIhmWhwWx5qEto25O8Lgzl4CCF1Ov8O5svc1hdbdoMzQ3qUlcWX/BCh25NtCtwvQ8RJqG6YDA2+IcfoM6wcSBdmGMarD3psoUmPPl9Lgi7/bvjo6BSbGFSB60Iy4K8zC4lntNja8qUeJD5lO4H4L0sBU0pOCihcxWfsJnuHDUAXZDuCqKdZcyKr8fOTtdK7IkPWVrlFBA91RTLw45 altay@altay-VirtualBox"
+  public_key = ""
 
 }
 #salvarea chei pe local
